@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>THE ELITE WEATHER FORECAST APP</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="weatherforecast.css"/>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="search-box">
+                <input type="text" placeholder="Enter Your Crush Location" class="input-box">
+                <button  class="fa-solid fa-magnifying-glass" id="search-button"></button>
+                
+            </div></div>
+            <div class="location-not-found">
+                <h1>OOPS !! Location not found</h1>
+                <img src="https://tse2.mm.bing.net/th?id=OIP.jVyOoMaDqNE-aFNM2Wbp7wHaF9&pid=Api&P=0&h=180">
+            </div>
+            <div class="weather-body">
+                <img src="https://cdn2.iconfinder.com/data/icons/weather-flat-14/64/weather02-1024.png" class="weather-image">
+                <div class="weather-box">
+                    <p class="temperature"> 0 °C </p>
+                    <p class="description">Light Rain</p>
+                </div>
+                <div class="weather-details">
+                    <div class="humidity">
+                        <i class="fa-solid fa-droplet"></i>
+                        <div class="text">
+                            <span id="humidity">45%</span>
+                            <P>Humidity</P>
+                        </div>
+                    </div>
+                    <div class="wind-speed">
+                        <i class="fa-solid fa-wind"></i>
+                        <div class="text">
+                            <span id="wind-speed">12km/h</span>
+                            <P>Wind Speed</P>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="weatherforecast.js">
+        
+    </script>
+</body>
+</html>
