@@ -132,3 +132,34 @@ flex-direction: column;
     color: #6b6b6b;
 }
 
+
+.creator-name{
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+}
+
+
+.creator{
+    color:rgb(7, 108, 117);
+    margin-bottom: 10px;
+}
+
+.name{
+    margin-bottom: 10px;
+    color:rgb(7,108,117) ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
