@@ -21,6 +21,7 @@ height: min-content;
 background-color: white;
 border-radius: 12px;
 padding: 28px;
+box-shadow: 0 0 50px 18px rgb(7, 108, 117);
 }
 
 .search-box{
